@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import * as React from "react"
 
 const pageStyles = {
@@ -127,9 +128,9 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations
+        <Link to="/about">About Page</Link>
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        <span style={headingAccentStyles}>— you just made a Gatsby site! Deepak 🎉🎉🎉</span>
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
